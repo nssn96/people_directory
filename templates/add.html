@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "{{ url_for('static', filename='css/index.css') }}">
+    <title>New User</title>
+</head>
+<body>
+    <h1>New user Sign-in page</h1>
+
+    <form action="/add" method="post">
+        <legend>Enter all the fields</legend>
+        <table>
+            
+            <tr>
+                <td><label for ="name">Name </label></td>
+                <td><input type="text" id="Name" name="Name"></td>
+              </tr>
+
+            <tr>
+                <td><label for ="state">State </label></td>
+                <td><input type="text" id="State" name="State"></td>
+            </tr>
+
+            <tr>
+                <td><label for ="salary">Salary </label></td>
+                <td><input type="text" id="Salary" name="Salary"></td>
+            </tr>
+
+            <tr>
+                <td><label for ="grade">Grade </label></td>
+                <td><input type="text" id="Grade" name="Grade"></td>
+            </tr>
+
+            <tr>
+                <td><label for ="room">Room </label></td>
+                <td><input type="text" id="Room" name="Room"></td>
+            </tr>
+
+            <tr>
+                <td><label for ="telnum">Telnum </label></td>
+                <td><input type="text" id="Telnum" name="Telnum"></td>
+            </tr>
+
+            <tr>
+                <td><label for ="Picture">Picture </label></td>
+                <td><input type="text" id="Picture" name="Picture"></td>
+            </tr>
+
+            <tr>
+                <td><label for ="keywords">Keywords </label></td>
+                <td><input type="text" id="Keywords" name="Keywords"></td>
+            </tr>
+        </table>
+    </br>
+
+    <input type="submit" value="SUBMIT"> </br></br>
+
+</form>
+
+{% with msg = get_flashed_messages() %}
+            {% if msg %}
+               {% for info in msg %}
+                  {{ info }}
+               {% endfor %}
+            {% endif %}
+         {% endwith %}
+
+        </br></br>
+
+<a href = "/">Go back to Main page</a>
+</body>
+</html>

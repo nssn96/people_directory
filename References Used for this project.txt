@@ -1,0 +1,30 @@
+# Name : Surya Narayanan Nadhamuni Suresh
+# UTA ID : 1001877873
+
+useful links
+1) to upload a file in Azure --> https://www.dotnetfunda.com/articles/show/3466/step-by-step-approach-to-upload-a-text-file-to-azure-blob-storage-usin
+
+2) import csv file to myphpadmin --
+https://medium.com/an-idea/import-csv-file-data-into-mysql-table-with-phpmyadmin-96024fc11f5d
+
+3) finding hostname from phpmyadmin,
+https://www.milesweb.in/hosting-faqs/about-mysql-hostname-and-ways-to-find-it/#:~:text=After%20opening%20phpMyAdmin%2C%20go%20to%20Server%20information%20from,domain%20or%20IP%20address%20of%20the%20database%20server%3A
+
+4) git upload -- > https://www.youtube.com/watch?v=eGaImwD8fPQ
+5) upload to Azure --> https://www.youtube.com/watch?v=K_RTlbOOCts
+
+6) for Image upload and retrieval from Azure cloud to web app
+https://tomlogs.github.io/build-a-photos-application-with-azure-blob-storage
+
+7) dynamic where clause --> https://www.sqlteam.com/articles/implementing-a-dynamic-where-clause
+
+8) https://www.javatpoint.com/html-form
+
+9) https://tomlogs.github.io/build-a-photos-application-with-azure-blob-storage
+
+10) https://sodocumentation.net/flask/topic/5459/file-uploads#:~:text=Uploaded%20files%20are%20available%20in%20request.files%2C%20a%20MultiDict,a%20common%20directory%20to%20save%20the%20files%20to.
+
+11) request objects---> https://www.tutorialspoint.com/flask/flask_request_object.htm
+12) file uploading ---> https://www.tutorialspoint.com/flask/flask_file_uploading.htm
+
+13) https://www.tutorialspoint.com/flask/flask_environment.htm
